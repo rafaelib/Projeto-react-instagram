@@ -1,11 +1,11 @@
-export default function usuario(){
-return(
-<div class="usuario">
+export default function Usuario(props){
+    return(
+    <div class="usuario">
         <img alt="" src={props.img} />
         <div class="texto">
             {props.name}
-            {props.subTexto}
+            {props.textoAvatar}
         </div>
-</div>
-)
+    </div>
+    );
 }
